@@ -32,8 +32,8 @@ function App() {
                 </button>
 
                 <section className="min-h-screen container mx-auto px-8 flex justify-center items-center flex-col">
-                    <nav className="fixed inset-0">
-                        <ul className="flex justify-center items-center gap-5 font-sans-serif p-4 invisible lg:visible">
+                    <nav className="fixed top-0">
+                        <ul className="flex justify-center items-center gap-5 font-sans-serif p-4 invisible lg:visible lg:text-lg">
                             <li className="">
                                 <a href="">home_</a>
                             </li>   
@@ -55,19 +55,19 @@ function App() {
                         </div>
                     </Draggable>
 
-                    <p className="font-serif italic text-3xl text-center">
+                    <p className="font-serif italic text-3xl text-center lg:text-4xl">
                         <span className="font-sans-serif">Hi!</span> I'm Fatahillah Firzalay
                     </p>
-                    <p className="mt-2 font-sans-serif underline">web dev</p>
-                    <p className="text-sm mt-2 font-light font-sans-serif tracking-tight text-center">
+                    <p className="mt-2 font-sans-serif underline lg:text-lg">web dev</p>
+                    <p className="text-sm mt-2 font-light font-sans-serif tracking-tight text-center lg:text-lg">
                         A <span className="bg-[#3167ce] text-white">professionally</span> lazy person, I build things
                         fast so I can enjoy being lazy <span className="bg-[#3167ce] text-white">person</span> later.
                     </p>
 
                     <div className="mt-4 flex gap-2">
-                        <img src={images.discordLogo} alt="" className="w-6 h-6 hover:cursor-pointer" />
-                        <img src={images.instagramLogo} alt="" className="w-6 h-6 hover:cursor-pointer" />
-                        <img src={images.musicLogo} alt="" className="w-6 h-6 hover:cursor-pointer" />
+                        <img src={images.discordLogo} alt="" className="w-6 h-6 cursor-pointer" />
+                        <img src={images.instagramLogo} alt="" className="w-6 h-6 cursor-pointer" />
+                        <img src={images.musicLogo} alt="" className="w-6 h-6 cursor-pointer" />
                     </div>
 
                     <div
