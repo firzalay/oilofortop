@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router";
 import { images } from "./assets/images";
 import Draggable from "react-draggable";
 
@@ -34,18 +35,10 @@ function App() {
                 <section className="min-h-screen container mx-auto px-8 flex justify-center items-center flex-col">
                     <nav className="fixed top-0">
                         <ul className="flex justify-center items-center gap-5 font-sans-serif p-4 invisible lg:visible lg:text-lg">
-                            <li className="">
-                                <a href="">home_</a>
-                            </li>   
-                            <li>
-                                <a href="">about_</a>
-                            </li>
-                            <li>
-                                <a href="">portofolio_</a>
-                            </li>
-                            <li>
-                                <a href="">contact me_</a>
-                            </li>
+                            <Link to="/">home_</Link> 
+                            <Link to="about">about_</Link> 
+                            <Link to="portofolio">portofolio_</Link>
+                            <Link to="contactme">contact me_</Link>
                         </ul>
                     </nav>
 
